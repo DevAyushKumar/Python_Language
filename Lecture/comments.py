@@ -5,3 +5,11 @@
 # What are escape sequence characters ?
 # => To insert characters that cannot be directly used in a string, we use an escape sequece characters.
 # An escape sequence character is backlash \ followed by the character you want to insert.
+
+# parameters of print statement
+# 1. Object(s) : Any object and as many as you like, will be converted to string before printed.
+# 2. sep = 'seperator' : Specify how to seperate objects, if there is more than one. Default is ''
+# 3. end = 'end' : Specify waht to print at the end. Default is '\n' (linefeed)
+# 4. file : An object with a write meathod. Default is sys.stdout
+
+# parameters 2 and 4 are optional 
