@@ -81,3 +81,23 @@ print(str15.isprintable())
 The isspace() meathod returns true only and only if the string contains white spaces else it returns false'''
 str16="This is a string"
 print(str16.isspace())
+
+'''17. istitle():
+The istitle() meathod returns True only if the first letter of each word of the string is capatilazed, else it returns false.'''
+str17="This is a string"
+print(str17.istitle())
+
+'''18. isupper():
+The isupper() meathod returns True only if all the characters in the string are upper case, else it returns false'''
+str18="This is a string"
+print(str18.isupper())
+
+'''19. swapcase():
+The swapcase() meathod changes the character casing of the string. upper case are converted to lower case and lower case to upper case'''
+str19="This is a string"
+print(str19.swapcase())
+
+'''20. title():
+The title() meathod capatilizes each letter of the word within the string'''
+str20="This is a string"
+print(str20.title())
