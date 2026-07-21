@@ -26,4 +26,20 @@ def name1(fname, mname, lname):
 #name1("Ayush", "Kumar")
 
 '''Variable-length argument:
-'''
+Sometimes we may need to pass more arguments than those defined in the actual function. This can be done using variable-length arguments.
+There are two ways to achieve this
+
+Arbitrary arguments:
+While creating a function, pass a * before the parameter name while defining a function. The function accesses the arguments by processing them in the form of tuple'''
+#example
+def name(*name):
+    print("Hello", name[0], name[1], name[2])
+
+name('Ayush', "rishu", "riya")
+
+'''Return statement:
+The return statement is used to return the value of the expression back to the calling function'''
+#example
+def name(fname, mname, lname):
+    return "Hello, "+fname+" "+mname+" "+lname
+print(name("Ayush", "Rishu", "Riya"))
