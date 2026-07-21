@@ -14,4 +14,11 @@ while (x>0):
     x-=1
 else:
     print('counter is 0')
-    
+
+'''Do While loop:
+Do...while is a loop in which a set of instructions will execute at least once (irresective of the condition) and them the repetation of loop's body will depend on the condition passed at the end of the while loop. It is also known as an exit controlled loop'''
+while True:
+    inp=int(input("Enter a positive number: "))
+    print(inp)
+    if not inp > 0:
+        break
